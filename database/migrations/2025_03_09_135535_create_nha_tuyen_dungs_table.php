@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('dia_chi');
             $table->text('mo_ta_cong_ty');
             $table->integer('cong_viec_da_dang')->default(0);
+            $table->date('ngay_dang_gan_nhat');
             $table->integer('tinh_trang')->default(0);
             $table->timestamps();
         });

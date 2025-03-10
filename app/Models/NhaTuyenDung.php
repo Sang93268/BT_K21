@@ -23,6 +23,7 @@ class NhaTuyenDung extends Authenticatable
         'mo_ta_cong_ty',
         'tinh_trang',
         'cong_viec_da_dang',
+        'ngay_dang_gan_nhat'
     ];
 
 }
