@@ -24,7 +24,7 @@ return new class extends Migration
             $table->integer('luong_toi_da');
             $table->date('ngay_dang');
             $table->date('han_nop');
-            $table->integer('tinh_trang')->default(1);
+            $table->integer('tinh_trang')->default(1)->comment('1: hiển thị, 0: tạm tắt');
             $table->string('ten_cong_ty');
             $table->timestamps();
         });

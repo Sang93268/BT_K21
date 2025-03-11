@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('id_ung_vien');
             $table->integer('id_cong_viec');
             $table->date('ngay_ung_tuyen');
-            $table->integer('tinh_trang')->default(1)->comment('0: Đã bị từ chối, 1: Đang xem xét, 2: Đã được chọn');
+            $table->integer('tinh_trang')->default(1)->comment('0: Đã bị từ chối, 1: Đang xem xét, 2: Đã được chọn, 3: Đã đóng công việc');
             $table->timestamps();
         });
     }
