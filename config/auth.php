@@ -48,6 +48,10 @@ return [
             'driver' => 'session',
             'provider' => 'ung_viens',
         ],
+        'nha_tuyen_dungs' => [
+            'driver' => 'session',
+            'provider' => 'nha_tuyen_dungs',
+        ],
     ],
 
     /*
@@ -81,6 +85,11 @@ return [
         'ung_viens' => [
             'driver' => 'eloquent',
             'model' => \App\Models\UngVien::class,
+        ],
+
+        'nha_tuyen_dungs' => [
+            'driver' => 'eloquent',
+            'model' => \App\Models\NhaTuyenDung::class,
         ],
 
         // 'users' => [
